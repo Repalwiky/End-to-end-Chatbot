@@ -1,0 +1,213 @@
+
+{
+  "intents": [
+    {
+      "tag": "terima_kasih",
+      "patterns": [
+        "Terima kasih",
+        "Makasih",
+        "Thanks",
+        "Thanks a lot",
+        "Thank you"
+      ],
+      "responses": [
+        "Sama-sama",
+        "Tidak masalah",
+        "Sama-sama ya",
+        "Senang bisa membantu"
+      ]
+    },
+    {
+      "tag": "bantuan",
+      "patterns": [
+        "Tolong bantu saya",
+        "Saya butuh bantuan",
+        "Bisa tolong?",
+        "Butuh bantuan"
+      ],
+      "responses": [
+        "Tentu, apa yang bisa saya bantu?",
+        "Silakan jelaskan masalahnya",
+        "Bagaimana saya dapat membantu?"
+      ]
+    },
+    {
+      "tag": "cuaca",
+      "patterns": [
+        "Bagaimana cuaca hari ini?",
+        "Apa kabar cuaca?",
+        "Cuaca sekarang seperti apa?"
+      ],
+      "responses": [
+        "Cuaca hari ini cerah dengan kemungkinan hujan ringan di sore hari.",
+        "Cuaca sedang mendung, tapi tidak terlalu hujan.",
+        "Cuaca hari ini cukup sejuk, cocok untuk aktivitas luar ruangan."
+      ]
+    },
+    {
+      "tag": "nama",
+      "patterns": [
+        "Siapa namamu?",
+        "Boleh tahu namamu?",
+        "Apa nama chatbot ini?"
+      ],
+      "responses": [
+        "Saya adalah chatbot pintar.",
+        "Panggil saya Chatbot.",
+        "Nama saya Chatbot, senang berkenalan denganmu."
+      ]
+    },
+    {
+      "tag": "umur",
+      "patterns": [
+        "Berapa umurmu?",
+        "Kamu berumur berapa?",
+        "Umurmu?"
+      ],
+      "responses": [
+        "Saya tidak memiliki umur seperti manusia, tapi saya selalu siap membantu.",
+        "Umur saya tidak relevan, yang penting saya bisa membantu kamu.",
+        "Saya diciptakan untuk membantu, jadi umur saya tidak penting."
+      ]
+    },
+    {
+      "tag": "lelucon",
+      "patterns": [
+        "Ceritakan lelucon",
+        "Bisa cerita lucu?",
+        "Buat aku tertawa",
+        "Lelucon"
+      ],
+      "responses": [
+        "Kenapa komputer tidak pernah lapar? Karena dia selalu makan byte.",
+        "Apa yang dikatakan keyboard kepada monitor? 'Kamu sangat menarik!'",
+        "Ingat, tawa itu obat terbaik!"
+      ]
+    },
+    {
+      "tag": "pujian",
+      "patterns": [
+        "Kamu hebat",
+        "Kamu keren",
+        "Aku suka caramu bekerja",
+        "Kerja bagus"
+      ],
+      "responses": [
+        "Terima kasih, saya berusaha sebaik mungkin.",
+        "Senang mendengarnya!",
+        "Terima kasih atas pujiannya.",
+        "Saya menghargai kata-kata baikmu."
+      ]
+    },
+    {
+      "tag": "restoran",
+      "patterns": [
+        "Rekomendasikan restoran enak",
+        "Tempat makan yang bagus?",
+        "Di mana saya bisa makan enak?"
+      ],
+      "responses": [
+        "Coba kunjungi restoran dengan menu lokal yang otentik.",
+        "Restoran yang menawarkan masakan fusion bisa jadi pilihan menarik.",
+        "Ada banyak restoran dengan cita rasa internasional, tergantung preferensimu."
+      ]
+    },
+    {
+      "tag": "berita",
+      "patterns": [
+        "Apa berita terbaru?",
+        "Berita hari ini apa saja?",
+        "Kabar terbaru"
+      ],
+      "responses": [
+        "Berita terbaru adalah mengenai perkembangan teknologi digital.",
+        "Ada pembaruan dalam dunia bisnis digital hari ini.",
+        "Kabar terbaru banyak tentang inovasi teknologi dan bisnis."
+      ]
+    },
+    {
+      "tag": "musik",
+      "patterns": [
+        "Rekomendasikan lagu",
+        "Buat saya mendengarkan musik",
+        "Apa lagu yang bagus?",
+        "Ada musik enak?"
+      ],
+      "responses": [
+        "Coba dengarkan lagu-lagu pop modern yang sedang tren.",
+        "Rekomendasi saya lagu dengan irama santai untuk relaksasi.",
+        "Lagu-lagu dengan lirik bermakna bisa menginspirasi hari-harimu."
+      ]
+    },
+    {
+      "tag": "film",
+      "patterns": [
+        "Rekomendasikan film",
+        "Ada film bagus?",
+        "Saran film untuk ditonton",
+        "Film apa yang menarik?"
+      ],
+      "responses": [
+        "Film dengan genre drama dan komedi bisa jadi pilihan menarik.",
+        "Coba tonton film dengan cerita inspiratif dan visual yang indah.",
+        "Rekomendasi saya film yang menggabungkan aksi dan cerita mendalam."
+      ]
+    },
+    {
+      "tag": "olahraga",
+      "patterns": [
+        "Siapa yang menang pertandingan?",
+        "Berita olahraga hari ini",
+        "Update skor pertandingan",
+        "Bagaimana hasil pertandingan?"
+      ],
+      "responses": [
+        "Hasil pertandingan menunjukkan performa tim yang luar biasa.",
+        "Tim favoritmu berhasil meraih kemenangan dengan skor tipis.",
+        "Ada kabar positif dari dunia olahraga hari ini."
+      ]
+    },
+    {
+      "tag": "belanja",
+      "patterns": [
+        "Rekomendasi tempat belanja",
+        "Di mana saya bisa berbelanja?",
+        "Bantuan mencari toko",
+        "Tempat belanja enak?"
+      ],
+      "responses": [
+        "Coba kunjungi pusat perbelanjaan modern di kotamu.",
+        "Ada banyak toko online dengan produk berkualitas.",
+        "Pilihan belanja bisa disesuaikan dengan kebutuhan dan budgetmu."
+      ]
+    },
+    {
+      "tag": "perjalanan",
+      "patterns": [
+        "Rekomendasikan destinasi wisata",
+        "Tempat liburan terbaik",
+        "Saya ingin berwisata",
+        "Saran tempat wisata"
+      ],
+      "responses": [
+        "Coba kunjungi destinasi wisata alam yang indah.",
+        "Tempat wisata sejarah bisa menjadi pilihan yang menarik.",
+        "Rekomendasi saya tempat wisata yang menawarkan pengalaman unik."
+      ]
+    },
+    {
+      "tag": "pendidikan",
+      "patterns": [
+        "Saran belajar efektif",
+        "Cara belajar yang baik?",
+        "Tips pendidikan",
+        "Bagaimana cara belajar dengan benar?"
+      ],
+      "responses": [
+        "Coba atur jadwal belajar yang konsisten dan teratur.",
+        "Gunakan teknik belajar aktif seperti diskusi dan praktik langsung.",
+        "Penting untuk memiliki metode belajar yang sesuai dengan gaya pribadimu."
+      ]
+    }
+  ]
+}
