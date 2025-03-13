@@ -6,7 +6,19 @@ import streamlit as st
 import random
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
-
+try:
+    import nltk
+    st.success("NLTK sudah terinstal!")
+except ImportError:
+    st.warning("NLTK tidak ditemukan. Mencoba menginstal...")
+    try:
+        subprocess.check_call([sys.executable, "-m", "pip", "install", "nltk"])
+        import nltk
+        st.success("NLTK berhasil diinstal!")
+    except Exception as e:
+        st.error(f"Gagal menginstal NLTK: {e}")
+        st.stop()
+        
 ssl._create_default_https_context = ssl._create_unverified_context
 nltk.data.path.append(os.path.abspath("nltk_data"))
 nltk.download('punkt')
