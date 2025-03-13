@@ -1,6 +1,6 @@
 # %%
 import os 
-import nltk
+
 import ssl
 import streamlit as st
 import random
