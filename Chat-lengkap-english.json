@@ -232,7 +232,7 @@
       "location"
    ],
    "responses": [
-      "<a target=\"_blank\" href=\"ADD YOU GOOGLE MAP LINK HERE\"> here</a>"
+      "our college at https://maps.app.goo.gl/irZi8929aERsJkFC7"
    ],
    "context_set": ""
 },
@@ -263,7 +263,7 @@
       "distance between hostel and college"
    ],
    "responses": [
-      "For hostel detail visit <a target=\"_blank\" href=\"ADD YOUR HOSTEL DETAIL PDF LINK OR ANY INFORMATION LINK OR ADD YOU OWN ANSWERS\"> here</a>"
+      "For hostel detail visit https://www.thesunhotel.co.id/hotel-sidoarjo-meeting-room/"
    ],
    "context_set": ""
 },
@@ -360,7 +360,7 @@
       "how many libraries"
    ],
    "responses": [
-      "There is one huge and spacious library.timings are 8am to 6pm and for more visit <a target=\"blank\" href=\"ADD LIBRARY DETAIL LINK\">here</a>"
+      "There is one huge and spacious library.timings are 8am to 6pm and for more visit https://library.unesa.ac.id/#"
    ],
    "context_set": ""
 },
