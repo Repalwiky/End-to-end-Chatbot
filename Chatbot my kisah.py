@@ -89,7 +89,7 @@ def chatbot(input_text):
 counter = 0
 def main():
     global counter
-    st.title("My Kisah")
+    st.title("My Carlotta")
     st.write("Hello, Darling. How can I help you today?")
 
     counter += 1
@@ -97,7 +97,7 @@ def main():
     
     if user_input:
         response = chatbot(user_input)
-        st.text_area("My Kisah: ", value=response, height=100, max_chars=None, key=f"My Kisah_response_{counter}")
+        st.text_area("Carlotta Montelli : ", value=response, height=100, max_chars=None, key=f"My Kisah_response_{counter}")
 
         if response.lower() in ["bye", "goodbye", "see you"]:
             st.write("Oke, sayang")
