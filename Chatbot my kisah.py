@@ -48,7 +48,7 @@ except Exception as e:
 # %%
 import json
 
-with open('Chat.json', 'r', encoding='utf-8') as f:
+with open('Chat-lengkap-english.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
     intents = data['intents']  # Pastikan struktur file JSON benar
 
