@@ -81,9 +81,8 @@ def chatbot(input_text):
     tag = clf.predict(input_text)[0]
     for intent in intents:
         if intent['tag'] == tag:
-            response = random.choice(intent['responses'])
-            break
-
+            return random.choice(intent['responses'])
+    return "Maaf, saya tidak mengerti pertanyaan Anda."
 # %%
 #chatbot with streamlit
 
